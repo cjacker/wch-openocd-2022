@@ -21,9 +21,9 @@ After installation successfully, please add `/opt/wch-openocd/bin` to your PATH 
 ## Usage
 
 ```
-wch-openocd-2022 -f /opt/wch-openocd/share/openocd/scripts/target/wch-riscv.cfg
+wch-openocd-2022 -f /opt/wch-openocd/share/openocd/scripts/interface/wlink.cfg -f /opt/wch-openocd/share/openocd/scripts/target/wch-riscv.cfg
 
 ```
 
-You may copy `wch-riscv.cfg` to your project dir to avoid use such a long PATH.
+You may combine this two config file to one and copy the final `wch-riscv.cfg` to your project dir to avoid using such a long PATH.
 
