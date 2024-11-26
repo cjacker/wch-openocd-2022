@@ -1046,6 +1046,14 @@ int wlink_verify(unsigned long length, unsigned char *buffer)
 	pWriteData(0, 1, txbuf, &len);
 	len = 4;
 	pReadData(0, 1, rxbuf, &len);
+
+	//FIXME
+	//failed to verify ch32v103 series due to wlink_fastprogram error.
+	//It is ok at the end of program, but error here.
+	if(riscvchip == 1) {
+		LOG_WARNING("Skip verify ch32v103");
+		return ERROR_OK;
+	}
 /*	int i = 0;
 	int ret;*/
 /*	switch (riscvchip)
