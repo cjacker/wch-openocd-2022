@@ -889,7 +889,7 @@ int dmstatus_read_timeout(struct target *target, uint32_t *dmstatus,
 	int dmstatus_version = get_field(*dmstatus, DM_DMSTATUS_VERSION);
 	if (dmstatus_version != 2 && dmstatus_version != 3) {
 	if(riscvchip != 9)
-		LOG_ERROR("OpenOCD only supports Debug Module version 2 (0.13) and 3 (1.0), not "
+		LOG_WARNING("OpenOCD only supports Debug Module version 2 (0.13) and 3 (1.0), not "
 				"%d (dmstatus=0x%x). This error might be caused by a JTAG "
 				"signal issue. Try reducing the JTAG clock speed.",
 				get_field(*dmstatus, DM_DMSTATUS_VERSION), *dmstatus);
