@@ -1,4 +1,5 @@
 noinst_LTLIBRARIES += %D%/libocdflashnor.la
+%C%_libocdflashnor_la_CPPFLAGS = $(AM_CPPFLAGS) -Wno-incompatible-pointer-types
 %C%_libocdflashnor_la_SOURCES = \
 	%D%/core.c \
 	%D%/tcl.c \
