@@ -1,4 +1,4 @@
-# Latest source of official WCH OpenOCD (2024-11-26 version)
+# Source of official WCH OpenOCD (2022 version)
 
 This repo host the outdated source of WCH OpenOCD **(about 2022 version)**.
 
