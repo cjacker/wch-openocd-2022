@@ -1,4 +1,4 @@
-# Latest source of official WCH OpenOCD (2024-11-26 version)
+# Source of official WCH OpenOCD (2022 version)
 
 The outdated source of WCH OpenOCD **(about 2022 version)** will be hosted here for WCH-Link/E with old version firmware.
 
