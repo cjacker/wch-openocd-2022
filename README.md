@@ -2,8 +2,8 @@
 
 This repo host the outdated source of WCH OpenOCD **(about 2022 version)**.
 
-- It can work with old version WCH-Link/LinkE firmware if you do not want to update the firmware to latest version.
-- support WCH-LinkE r0 1v3 hardware.
+- Improved to support WCH-LinkE r0 1v3.
+- Work with old version WCH-Link/LinkE firmware if you do not want to update the firmware to latest version.
 - Support program / debug WCH ch32v003/103/20x/30x.
 
 
